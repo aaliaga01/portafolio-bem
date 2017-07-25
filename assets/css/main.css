@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', serif; }
+
+.menu-rojo {
+  display: inline-block;
+  background-color: #f04949;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center; }
+
+.menu-rojo__link {
+  display: inline-block;
+  margin-top: -10px; }
+
+/*# sourceMappingURL=main.css.map */
