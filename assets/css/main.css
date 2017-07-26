@@ -100,38 +100,50 @@ header {
 
 .redes__face {
   color: white;
-  background-color: #5173b6;
+  background-color: #233c4f;
   padding: 10px 20px;
   margin: 0 5px; }
+  .redes__face:hover {
+    background-color: #5173b6; }
 
 .redes__twit {
   color: white;
-  background-color: #3AA4D2;
+  background-color: #233c4f;
   padding: 10px 15px;
   margin: 0 5px; }
+  .redes__twit:hover {
+    background-color: #3AA4D2; }
 
 .redes__goog {
   color: white;
-  background-color: #C2554A;
+  background-color: #233c4f;
   padding: 10px 10px;
   margin: 0 5px; }
+  .redes__goog:hover {
+    background-color: #C2554A; }
 
 .redes__pint {
   color: white;
-  background-color: #BA323B;
+  background-color: #233c4f;
   padding: 10px 18px;
   margin: 0 5px; }
+  .redes__pint:hover {
+    background-color: #BA323B; }
 
 .redes__stum {
   color: white;
-  background-color: #d25535;
+  background-color: #233c4f;
   padding: 10px;
   margin: 0 5px; }
+  .redes__stum:hover {
+    background-color: #d25535; }
 
 .redes__drib {
   color: white;
-  background-color: #cc5c8b;
+  background-color: #233c4f;
   padding: 10px 15px;
   margin: 0 5px; }
+  .redes__drib:hover {
+    background-color: #cc5c8b; }
 
 /*# sourceMappingURL=main.css.map */

@@ -104,43 +104,61 @@
 
 .redes__face{
 	color:$color_bco;
-	background-color:$color_face;
+	background-color:$color_neutro;
 	padding:10px 20px;
 	margin: 0 5px;
+	&:hover{ 
+		background-color:$color_face;
+	}
 }
 
 .redes__twit{
 	color:$color_bco;
-	background-color:$color_twit;
+	background-color:$color_neutro;
 	padding:10px 15px;
 	margin: 0 5px;
+	&:hover{ 
+		background-color:$color_twit;
+	}
 }
 
 .redes__goog{
 	color:$color_bco;
-	background-color:$color_goog;
+	background-color:$color_neutro;
 	padding:10px 10px;
 	margin: 0 5px;
+	&:hover{ 
+		background-color:$color_goog;
+	}
 }
 
 .redes__pint{
 	color:$color_bco;
-	background-color:$color_pint;
+	background-color:$color_neutro;
 	padding:10px 18px;
 	margin: 0 5px;
+	&:hover{ 
+		background-color:$color_pint;
+	}
 }
 
 .redes__stum{
 	color:$color_bco;
-	background-color:$color_stum;
+	background-color:$color_neutro;
 	padding:10px;
 	margin: 0 5px;
+	&:hover{ 
+		background-color:$color_stum;
+	}
 }
 
 .redes__drib{
 	color:$color_bco;
-	background-color:$color_drib;
+	background-color:$color_neutro;
 	padding:10px 15px;
 	margin: 0 5px;
+	&:hover{ 
+		background-color:$color_drib;
+	}
 }
 
