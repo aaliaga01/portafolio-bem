@@ -1,7 +1,25 @@
+.logo{
+	width:30%;
+	float:left;
+	text-align:right;
+}
+
+
+.logo__logocirc{
+	width:80px;
+	height:80px;
+	border:solid 3px $color_rosa_osc;
+	border-radius: 100%;
+}
+
+.lista{
+	width:70%;
+	float:right;
+	text-align:left;
+}
+
 .menu-rojo{
 	display:inline-block;
-	background-color:#f04949;
-	width:100%;
 	margin:0;
 	padding:20px 0;
 	text-align:center;
@@ -10,5 +28,18 @@
 
 .menu-rojo__link{
 	display:inline-block;
-	margin-top:-10px;
+	text-transform: uppercase;
+	margin: 10px 10px;
+	color:white;
+}
+
+.menu-rojo__link__a{
+	color:$color_bco;
+	text-decoration:none;
+	padding: 10px 20px;
+	&:hover{
+		background-color:$color_azul;
+		padding: 10px 20px;
+		border-radius: 100px;
+	}
 }

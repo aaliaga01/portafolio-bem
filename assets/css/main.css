@@ -2,18 +2,50 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', serif; }
+  font-family: 'Open Sans', serif;
+  box-sizing: border-box; }
+
+header {
+  background-color: #f04949;
+  height: 90px;
+  padding-top: 10px;
+  padding-bottom: 5px; }
+
+.logo {
+  width: 30%;
+  float: left;
+  text-align: right; }
+
+.logo__logocirc {
+  width: 80px;
+  height: 80px;
+  border: solid 3px #b52f2f;
+  border-radius: 100%; }
+
+.lista {
+  width: 70%;
+  float: right;
+  text-align: left; }
 
 .menu-rojo {
   display: inline-block;
-  background-color: #f04949;
-  width: 100%;
   margin: 0;
   padding: 20px 0;
   text-align: center; }
 
 .menu-rojo__link {
   display: inline-block;
-  margin-top: -10px; }
+  text-transform: uppercase;
+  margin: 10px 10px;
+  color: white; }
+
+.menu-rojo__link__a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; }
+  .menu-rojo__link__a:hover {
+    background-color: #203748;
+    padding: 10px 20px;
+    border-radius: 100px; }
 
 /*# sourceMappingURL=main.css.map */

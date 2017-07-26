@@ -5,32 +5,42 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BEM</title>
+	<script src="https://use.fontawesome.com/e673371d55.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 	<header>
 		<nav>
-			<img src="http://dummyimage.com/50x50/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+			<div class="logo">
+			<img class="logo__logocirc" src="assets/img/logo.png" alt="logo">
+			</div>
+			<div class="lista">
 			<ul class="menu-rojo">
-				<li class="menu-rojo__link"><a href="#">profile</a></li>
-				<li class="menu-rojo__link"><a href="#">skills</a></li>
-				<li class="menu-rojo__link"><a href="#">work</a></li>
-				<li class="menu-rojo__link"><a href="#">resume</a></li>
+				<li class="menu-rojo__link"><a class="menu-rojo__link__a" href="#"><i class="fa fa-user-o" aria-hidden="true"></i> profile</a></li>
+				<li class="menu-rojo__link"><a class="menu-rojo__link__a" href="#"><i class="fa fa-trophy" aria-hidden="true"></i>
+ skills</a></li>
+				<li class="menu-rojo__link"><a class="menu-rojo__link__a" href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>
+ work</a></li>
+				<li class="menu-rojo__link"><a class="menu-rojo__link__a" href="#"><i class="fa fa-file" aria-hidden="true"></i>
+ resume</a></li>
 			</ul>
+			</div>
 		</nav>
 	</header>
 
 	<section>
-		<div>
+		<div class="colderecha">
 			<img src="http://dummyimage.com/300x300/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
 		</div>
-		<div>
+		<div class="colizquierda">
 			<p>In consectetur leo bibendum velit pellentesque facilisis. Maecenas laoreet bibendum lacus, rutrum egestas nisi posuere in. Pellentesque id nisi imperdiet, vehicula libero et, posuere ligula. Vivamus id aliquet eros, eu varius neque. Morbi sed tristique mauris. Sed accumsan semper fermentum. Aenean et lacus feugiat, placerat nisi a, tempor augue.</p>
 			<a href="#"></a>
 		</div>
 	</section>
 	<section>
-		<img src="http://dummyimage.com/50x50/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+		<div class="redes">
+			<img src="http://dummyimage.com/50x50/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+		</div>
 	</section>
 </body>
 </html>
