@@ -43,3 +43,104 @@
 		border-radius: 100px;
 	}
 }
+
+.colderecha{
+	width:50%;
+	float:left;
+	text-align:right;  
+}
+
+.colderecha__logo-grande{
+	width:400px;
+	height:400px;
+	border-radius: 100%;
+}
+
+.colizquierda{
+	width:50%;
+	float:right;
+	text-align:left;
+}
+
+.colizquierda__titulo{
+	color:$color_verde;
+	padding-top:20px;
+	font-size:35px;
+}
+
+.colizquierda__titulo2{
+	color:$color_bco;
+	font-size:20px;
+	margin-top:-20px;
+}
+
+.colizquierda__parrafo{
+	color:$color_bco;
+	font-size:15px;
+	line-height:30px;
+	padding-bottom:20px;
+	width:60%;
+}
+
+.colizquierda__btn{
+	color:$color_bco;
+	background-color:$color_verde;
+	text-decoration:none;
+	padding: 10px 30px;
+	border-radius: 100px;
+	&:hover{
+		background-color:$color_verde_osc;
+		padding: 10px 30px;
+		border-radius: 100px;
+	}
+}
+
+.redes{
+	display:block;
+	clear:both;
+	padding:20px 0;
+	text-align:center;
+}
+
+.redes__face{
+	color:$color_bco;
+	background-color:$color_face;
+	padding:10px 20px;
+	margin: 0 5px;
+}
+
+.redes__twit{
+	color:$color_bco;
+	background-color:$color_twit;
+	padding:10px 15px;
+	margin: 0 5px;
+}
+
+.redes__goog{
+	color:$color_bco;
+	background-color:$color_goog;
+	padding:10px 10px;
+	margin: 0 5px;
+}
+
+.redes__pint{
+	color:$color_bco;
+	background-color:$color_pint;
+	padding:10px 18px;
+	margin: 0 5px;
+}
+
+.redes__stum{
+	color:$color_bco;
+	background-color:$color_stum;
+	padding:10px;
+	margin: 0 5px;
+}
+
+.redes__drib{
+	color:$color_bco;
+	background-color:$color_drib;
+	padding:10px 15px;
+	margin: 0 5px;
+}
+

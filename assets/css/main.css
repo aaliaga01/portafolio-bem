@@ -1,9 +1,10 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300";
 body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', serif;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #203748; }
 
 header {
   background-color: #f04949;
@@ -47,5 +48,90 @@ header {
     background-color: #203748;
     padding: 10px 20px;
     border-radius: 100px; }
+
+.colderecha {
+  width: 50%;
+  float: left;
+  text-align: right; }
+
+.colderecha__logo-grande {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%; }
+
+.colizquierda {
+  width: 50%;
+  float: right;
+  text-align: left; }
+
+.colizquierda__titulo {
+  color: #39d084;
+  padding-top: 20px;
+  font-size: 35px; }
+
+.colizquierda__titulo2 {
+  color: white;
+  font-size: 20px;
+  margin-top: -20px; }
+
+.colizquierda__parrafo {
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  width: 60%; }
+
+.colizquierda__btn {
+  color: white;
+  background-color: #39d084;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 100px; }
+  .colizquierda__btn:hover {
+    background-color: #268954;
+    padding: 10px 30px;
+    border-radius: 100px; }
+
+.redes {
+  display: block;
+  clear: both;
+  padding: 20px 0;
+  text-align: center; }
+
+.redes__face {
+  color: white;
+  background-color: #5173b6;
+  padding: 10px 20px;
+  margin: 0 5px; }
+
+.redes__twit {
+  color: white;
+  background-color: #3AA4D2;
+  padding: 10px 15px;
+  margin: 0 5px; }
+
+.redes__goog {
+  color: white;
+  background-color: #C2554A;
+  padding: 10px 10px;
+  margin: 0 5px; }
+
+.redes__pint {
+  color: white;
+  background-color: #BA323B;
+  padding: 10px 18px;
+  margin: 0 5px; }
+
+.redes__stum {
+  color: white;
+  background-color: #d25535;
+  padding: 10px;
+  margin: 0 5px; }
+
+.redes__drib {
+  color: white;
+  background-color: #cc5c8b;
+  padding: 10px 15px;
+  margin: 0 5px; }
 
 /*# sourceMappingURL=main.css.map */
